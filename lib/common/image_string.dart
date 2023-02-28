@@ -44,4 +44,51 @@ const String tToysImg = "assets/images/toys.png";
 const String tElectronicsImg = "assets/images/elect.png";
 
 
+//Special offer screen image
+const String tWerollaImg = "assets/images/werolla.png";
+const String tMocoImg = "assets/images/moco.png";
+const String tBlackGirlImg = "assets/images/blackGirl.png";
+const String tBlackSuitImg = "assets/images/blackSuit.png";
+const String tTodayImg = "assets/images/onBoarding1.png";
+const String tViyaraImg = "assets/images/casualSuit.png";
+
+//Weekend offer screen image
+const String tSoniaHeadImg = "assets/images/soniaHead.png";
+const String tSilentHeadImg = "assets/images/silentHead.png";
+const String tViniaHeadImg = "assets/images/viniaHead.png";
+const String tRodeMicroImg = "assets/images/rodeMicro.png";
+const String tAMicroImg = "assets/images/microphone.png";
+
+//New Arrival screen image
+const String tShoesWhitLVImg = "assets/images/shoesWhiteLV.png";
+const String tShoesBlackWhiteImg = "assets/images/shoenBlackWhite.png";
+const String tShoesRedImg = "assets/images/shoesRed.png";
+const String tShoesWhiteImg = "assets/images/shoesWhite.png";
+
+
+
+final String tStarImg = "assets/images/star.svg";
+
+const String tShoesLeatherImg = "assets/images/shoesLeather.png";
+const String tCasualSuitLeatherImg = "assets/images/casualSuit.png";
+const String tBagLeatherImg = "assets/images/bagLeather.png";
+const String tBlackBagLeatherImg = "assets/images/blackLeatherBag.png";
+const String tMicrophoneImg = "assets/images/microphone.png";
+const String tBlackNikeShoesImg = "assets/images/blackNikeShoes.png";
+
+//Notification screen
+const String tDiscountIcon ="assets/images/discount.svg";
+const String tWalletIcon ="assets/images/wallet.svg";
+const String tLocationIcon ="assets/images/location.svg";
+const String tCreditCardIcon ="assets/images/creditCard.svg";
+const String tProfileIcon ="assets/images/profile.svg";
+
+
+
+
+
+
+
+
+
 

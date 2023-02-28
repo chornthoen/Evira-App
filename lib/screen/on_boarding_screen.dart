@@ -5,6 +5,8 @@ import 'package:my_app/component/button_widget.dart';
 import 'package:my_app/model/on_boarding_model.dart';
 import 'package:my_app/screen/let_you_in.dart';
 
+import '../model/special_model.dart';
+
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({Key? key}) : super(key: key);
 
@@ -90,6 +92,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     borderRadius: BorderRadius.circular(10),
                   ),
                 ),
+
             ],
           ),
           const SizedBox(
@@ -118,3 +121,4 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
     );
   }
 }
+

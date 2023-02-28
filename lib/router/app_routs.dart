@@ -6,8 +6,13 @@ import 'package:my_app/screen/fill_your_profile.dart';
 import 'package:my_app/screen/forgot_password_otp_screen.dart';
 import 'package:my_app/screen/forgot_password_screen.dart';
 import 'package:my_app/screen/let_you_in.dart';
+import 'package:my_app/screen/most_popular_screen.dart';
+import 'package:my_app/screen/my_wishlist_screen.dart';
+import 'package:my_app/screen/notification_screen.dart';
 import 'package:my_app/screen/on_boarding_screen.dart';
+import 'package:my_app/screen/search_screen.dart';
 import 'package:my_app/screen/sign_up_screen.dart';
+import 'package:my_app/screen/special_offers_screen.dart';
 import 'package:my_app/screen/splash_screen.dart';
 import 'package:my_app/screen/welcome_screen.dart';
 
@@ -45,6 +50,16 @@ class AppRouter{
         return MaterialPageRoute(builder: (_) => const CreateNewPasswordScreen());
         case BottomBarScreen.routeName:
         return MaterialPageRoute(builder: (_) => const BottomBarScreen());
+      case NotificationScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const NotificationScreen());
+      case MyWishlistScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const MyWishlistScreen());
+      case MostPopularScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const MostPopularScreen());
+      case SpecialOffersScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const SpecialOffersScreen());
+      case SearchScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const SearchScreen());
 
       default:
         return MaterialPageRoute(

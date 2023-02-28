@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_app/common/image_string.dart';
@@ -65,22 +66,22 @@ class _CreateNewPasswordScreenState extends State<CreateNewPasswordScreen> {
                 ),
               ),
               const SizedBox(height: 20),
-              const TextFieldForm(
+               const TextFieldForm(
                 hintText: "Password",
                 prefixIcon: Icon(
-                  Icons.lock,
+                  IconlyBold.lock,
                 ),
                 suffixIcon: Icon(
-                  Icons.visibility_off_rounded,
+                  IconlyBold.hide,
                 ),
               ),
               const TextFieldForm(
                 hintText: "Password",
                 prefixIcon: Icon(
-                  Icons.lock,
+                  IconlyBold.lock,
                 ),
                 suffixIcon: Icon(
-                  Icons.visibility_off_rounded,
+                  IconlyBold.hide,
                 ),
               ),
               const CheckBoxWidget(),
