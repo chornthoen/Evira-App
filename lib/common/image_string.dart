@@ -93,6 +93,25 @@ const String tRainaRingsImg = "assets/images/rainaRings.png";
 const String tOrangeRingsImg = "assets/images/orangsRings.png";
 const String tGoldRingsImg = "assets/images/goldRings.png";
 
+//kitchen
+const String tKnifeSliciaImg ="assets/images/knifeSlicia.png";
+const String tSpoonBowlSetImg ="assets/images/spoonBowlSet.png";
+const String tKnifeDoubleImg ="assets/images/knifeDouble.png";
+const String tWoodenImg ="assets/images/wooden.png";
+const String tKnifeManyImg ="assets/images/manyKnife.png";
+const String tSpoonDoubleImg ="assets/images/spoonDouble.png";
+
+//toys
+const String tBatMobileImg ="assets/images/batmobile.png";
+const String tMiniImg ="assets/images/mini.png";
+const String tCutieImg ="assets/images/cutie.png";
+const String tMasyaImg ="assets/images/masya.png";
+const String tYellowImg ="assets/images/yewllo.png";
+const String tGirlImg ="assets/images/girl.png";
+
+
+
+
 
 
 
