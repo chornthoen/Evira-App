@@ -65,6 +65,37 @@ const String tShoesBlackWhiteImg = "assets/images/shoenBlackWhite.png";
 const String tShoesRedImg = "assets/images/shoesRed.png";
 const String tShoesWhiteImg = "assets/images/shoesWhite.png";
 
+//bags
+const String tSnakeBagImg ="assets/images/snakeBags.png";
+const String tOrangeBagImg ="assets/images/OrangeBags.png";
+const String tRedBagImg ="assets/images/redBags.png";
+const String tBlackBagImg ="assets/images/blackBags.png";
+const String tBrownBagImg ="assets/images/brownBag.png";
+
+//electronic
+const String tCameraFujiImg = "assets/images/cameraFuji.png";
+const String tCameraImg = "assets/images/camera.png";
+
+
+//watch
+const String tZonWatchImg = "assets/images/zonioWatch.png";
+const String tGoldenWatchImg = "assets/images/goldenWatch.png";
+const String tBlackFireWatchImg = "assets/images/blackFireWatch.png";
+const String tGlassiaWatchImg = "assets/images/glassiaWatch.png";
+const String tGlassiaWhiteWatchImg = "assets/images/glassiaWhiteWatch.png";
+
+//jewelry
+
+const String tRedRingsImg = "assets/images/redRings.png";
+const String tBlueRingsImg = "assets/images/blueRings.png";
+const String tHujiaRingsImg = "assets/images/HujiaRings.png";
+const String tRainaRingsImg = "assets/images/rainaRings.png";
+const String tOrangeRingsImg = "assets/images/orangsRings.png";
+const String tGoldRingsImg = "assets/images/goldRings.png";
+
+
+
+
 
 
 final String tStarImg = "assets/images/star.svg";

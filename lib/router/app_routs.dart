@@ -1,10 +1,17 @@
 
 import 'package:flutter/material.dart';
+import 'package:my_app/model/electronics_models.dart';
 import 'package:my_app/screen/btm_bar_screen.dart';
 import 'package:my_app/screen/create_new_pin.dart';
 import 'package:my_app/screen/fill_your_profile.dart';
 import 'package:my_app/screen/forgot_password_otp_screen.dart';
 import 'package:my_app/screen/forgot_password_screen.dart';
+import 'package:my_app/screen/home/bage_screen.dart';
+import 'package:my_app/screen/home/clothes_screen.dart';
+import 'package:my_app/screen/home/electronics_Screen.dart';
+import 'package:my_app/screen/home/shoes_screen.dart';
+import 'package:my_app/screen/home/toys_screen.dart';
+import 'package:my_app/screen/home/watch_screen.dart';
 import 'package:my_app/screen/let_you_in.dart';
 import 'package:my_app/screen/most_popular_screen.dart';
 import 'package:my_app/screen/my_wishlist_screen.dart';
@@ -17,6 +24,8 @@ import 'package:my_app/screen/splash_screen.dart';
 import 'package:my_app/screen/welcome_screen.dart';
 
 import '../screen/create_new_password_screen.dart';
+import '../screen/home/jewelry_screen.dart';
+import '../screen/home/kitchen_screen.dart';
 import '../screen/set_your_fingerprint.dart';
 import '../screen/sign_in_screen.dart';
 
@@ -60,6 +69,22 @@ class AppRouter{
         return MaterialPageRoute(builder: (_) => const SpecialOffersScreen());
       case SearchScreen.routeName:
         return MaterialPageRoute(builder: (_) => const SearchScreen());
+      case ClothesScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const ClothesScreen());
+      case ShoesScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const ShoesScreen());
+      case BagsScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const BagsScreen());
+      case ElectronicsScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const ElectronicsScreen());
+      case WatchScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const WatchScreen());
+      case JewelryScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const JewelryScreen());
+      case KitchenScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const KitchenScreen());
+      case ToysScreen.routeName:
+        return MaterialPageRoute(builder: (_) => const ToysScreen());
 
       default:
         return MaterialPageRoute(

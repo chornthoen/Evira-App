@@ -5,6 +5,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:my_app/common/color_string.dart';
 import 'package:my_app/common/image_string.dart';
 import 'package:my_app/model/special_model.dart';
+import 'package:my_app/screen/home/bage_screen.dart';
+import 'package:my_app/screen/home/clothes_screen.dart';
+import 'package:my_app/screen/home/electronics_Screen.dart';
+import 'package:my_app/screen/home/jewelry_screen.dart';
+import 'package:my_app/screen/home/kitchen_screen.dart';
+import 'package:my_app/screen/home/shoes_screen.dart';
+import 'package:my_app/screen/home/toys_screen.dart';
+import 'package:my_app/screen/home/watch_screen.dart';
 import 'package:my_app/screen/most_popular_screen.dart';
 import 'package:my_app/screen/search_screen.dart';
 import 'package:my_app/screen/special_offers_screen.dart';
@@ -92,8 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     Container(
                       margin: const EdgeInsets.only(top: 20),
-                      padding: const EdgeInsets.only(
-                          left: 10,  right: 2),
+                      padding: const EdgeInsets.only(left: 10, right: 2),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
                         color: const Color(0xFFFAFAFA),
@@ -133,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           const Spacer(),
                           IconButton(
                             onPressed: () {
-                              print("Filter"  );
+                              print("Filter");
                             },
                             icon: const Icon(IconlyLight.filter),
                           ),
@@ -172,30 +179,82 @@ class _HomeScreenState extends State<HomeScreen> {
                     const SizedBox(height: 10),
                     const CardSpecial(),
                     Container(
-                      width: double.infinity,
                       padding: const EdgeInsets.symmetric(horizontal: 5),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          cardIcons(context, img: tClothImg, name: "Clothes"),
-                          cardIcons(context, img: tShoesImg, name: "Shoes"),
-                          cardIcons(context, img: tBagsImg, name: "Bags"),
-                          cardIcons(context,
-                              img: tElectronicsImg, name: "Electronics"),
+                          GestureDetector(
+                            child: cardIcons(context,
+                                img: tClothImg, name: "Clothes"),
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, ClothesScreen.routeName);
+                            },
+                          ),
+                          GestureDetector(
+                            child: cardIcons(context,
+                                img: tShoesImg, name: "Shoes"),
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, ShoesScreen.routeName);
+                            },
+                          ),
+                          GestureDetector(
+                            child: cardIcons(context,
+                                img: tBagsImg, name: "Bags"),
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, BagsScreen.routeName);
+                            },
+                          ),
+                          GestureDetector(
+                            child: cardIcons(context,
+                                img: tElectronicsImg, name: "Electronics"),
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, ElectronicsScreen.routeName);
+                            },
+                          ),
                         ],
                       ),
                     ),
                     Container(
-                      width: double.infinity,
                       padding: const EdgeInsets.symmetric(horizontal: 5),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          cardIcons(context, img: tWatchImg, name: "Watch"),
-                          cardIcons(context,
-                              img: tJewelleryImg, name: "Jewelry"),
-                          cardIcons(context, img: tKichenImg, name: "Kitchen"),
-                          cardIcons(context, img: tToysImg, name: "Toys"),
+                          GestureDetector(
+                            child: cardIcons(context,
+                                img: tWatchImg, name: "Watch"),
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, WatchScreen.routeName);
+                            },
+                          ),
+                          GestureDetector(
+                            child: cardIcons(context,
+                                img: tJewelleryImg, name: "Jewelry"),
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, JewelryScreen.routeName);
+                            },
+                          ),
+                          GestureDetector(
+                            child: cardIcons(context,
+                                img: tKichenImg, name: "Kitchen"),
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, KitchenScreen.routeName);
+                            },
+                          ),
+                          GestureDetector(
+                            child: cardIcons(context,
+                                img: tToysImg, name: "Toys"),
+                            onTap: () {
+                              Navigator.pushNamed(
+                                  context, ToysScreen.routeName);
+                            },
+                          ),
                         ],
                       ),
                     ),
